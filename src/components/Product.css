@@ -1,0 +1,19 @@
+.title{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    height: 42px;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.description{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.product-img{
+    transition: 0.3s all;
+}
+.product-img:hover{
+    transform: translateY(-10px);
+}
