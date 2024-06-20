@@ -55,7 +55,7 @@ const DiscoverProducts = () => {
             </div>
            
         </div>  
-        <div className="md:col-span-10 md:mt-8 col-span-12 overflow-y-auto md:max-h-[86vh] min-h-[86vh]">
+        <div className="md:col-span-10 md:mt-8 pb-3 col-span-12 overflow-y-auto md:max-h-[84vh] min-h-[84vh]">
         
             <div className="grid xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-2">
                 {
