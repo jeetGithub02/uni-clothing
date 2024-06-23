@@ -35,7 +35,7 @@ const Login = () => {
                     <dt className='font-medium'>Email</dt>
                     <dd><input type="email" onChange={handleChange} required placeholder="Enter your email" name='Email' className="p-2 my-1 rounded w-full bg-gray-100" /></dd>
                     <dt className='font-medium mt-3'>Password</dt>
-                    <dd><input type="text" name="Password" required onChange={handleChange} placeholder="Enter your password" className='p-2  my-1 rounded w-full bg-gray-100' /></dd>
+                    <dd><input type="password" name="Password" required onChange={handleChange} placeholder="Enter your password" className='p-2  my-1 rounded w-full bg-gray-100' /></dd>
                     <dd className="text-center"><button className='mt-3 px-3 rounded text-white bg-slate-400 py-1 hover:bg-slate-500 duration-200'>Login</button></dd>
                     <dd className="mt-3">Don't have account? <Link className="text-sky-500 underline" to="/signup">Sign-up</Link></dd>
 
