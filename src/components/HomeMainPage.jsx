@@ -8,10 +8,10 @@ const HomeMainPage = () => {
         <div className="container">
             <div className="grid lg:grid-cols-2 items-center py-5 gap-5">
                 <div>
-                    <h2 className='text-3xl font-bold'>
+                    <h2 className='md:text-3xl text-2xl font-bold leading-6'>
                         Welcome to UNI clothing, Experience the height of fashion with our exquisite designer pieces.
                     </h2>   
-                    <p className='text-lg leading-5 mt-2'>
+                    <p className='md:text-lg leading-5 mt-2'>
                     Where style, sophistication, exclusivity is the forefront of our collection. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quaerat nostrum quia nam earum, libero, expedita impedit delectus provident quo eveniet.
                     </p>
                     <Link 
