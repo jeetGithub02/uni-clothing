@@ -58,7 +58,7 @@ const Navbar = () => {
                 <button title="My bag"><HiOutlineShoppingBag /></button>
                 <label title="Account">
                     <div onClick={()=>setShow(!show)} className='cursor-pointer'><HiOutlineUser/></div>
-                    <ul onClick={handelAccountClick}  className={`text-[16px] mt-1 h- ${show ? "block" : "hidden"} cursor-pointer rounded font-medium bg-white leading-5 absolute right-2  `}>
+                    <ul onClick={handelAccountClick}  className={`text-[16px] mt-1 h- ${show ? "block" : "hidden"} cursor-pointer rounded font-medium bg-white leading-5 absolute right-2 z-[100] `}>
                         <li className="px-3 py-1 rounded hover:bg-slate-400 duration-200">Account</li>
                         <li className="px-3 py-1 rounded hover:bg-slate-400 duration-200">Orders</li>
                         <li className="px-3 py-1 rounded hover:bg-slate-400 duration-200">
